@@ -40,6 +40,10 @@ deleted_item = alp_list.pop()
 alp_list.remove('c')
 # del list[index] deletes the element at the index
 del alp_list[2]
+alp_list.append('e')
+alp_list.append('d')
+# count(item) returns the number of occurances of item
+print alp_list.count('e')
 
 nums = [3, 41, 12, 9, 74, 15] 
 # List math operations
@@ -49,6 +53,9 @@ print min(nums)
 print sum(nums)
 # sort() sorts the list
 nums.sort()
+print nums
+# reverse() reverses the list
+nums.reverse()
 print nums
 
 s = "hello world. I am your program"
